@@ -4,10 +4,11 @@ function HeroSection() {
     return (
         <main className="hero-section" id="hero">
             <div>
+                <div className='avatar-container'>
+                    <img src='/images/avatar.svg' alt='Unable to load avatar' />
+                </div>
                 <h2>Hey I'm RAGHVENDRA MITTAL</h2>
-                <h4 style={{
-                    textAlign: 'center'
-                }}>I am a <Typewriter
+                <h4 className='typewriter-text'>I am a <Typewriter
                         words={['WEB DEVELOPER', 'FREELANCER', 'AI/ML ENTHUSIAST']}
                         loop={0}
                         cursor

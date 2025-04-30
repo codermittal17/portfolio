@@ -64,6 +64,15 @@ body {
     font-size: 3rem;
 }
 
+.avatar-container{
+    display: flex;
+    justify-content: center;
+}
+
+.typewriter-text{
+    text-align: center;
+}
+
 .contact-btn{
     /* border: 2px solid #340670; */
     background-color: #1a0b2e;
