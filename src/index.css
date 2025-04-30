@@ -30,7 +30,8 @@ body {
     height: 12.5vh;
     padding: 2rem 3rem;
     color: white;
-    background-color: #222831;
+    background-color: #1a0b2e;
+    /* background-color: #222831; */
     font-size: 1.4rem;
 }
 
@@ -51,7 +52,8 @@ body {
 /* HERO SECTION STYLING */
 .hero-section {
     height: calc(100vh - 12.5vh);
-    background-color: #292e36;
+    background-color: #11071f;
+    /* background-color: #292e36; */
     /* background-color: #393E46; */
     color: white;
     display: flex;
@@ -63,10 +65,10 @@ body {
 }
 
 .contact-btn{
-    border: 2px solid #6f6352;
-    background-color: #393E46;
+    /* border: 2px solid #340670; */
+    background-color: #1a0b2e;
     color: white;
-    padding: 0.8rem 1rem;
+    padding: 1rem 1.2rem;
     font-size: 1rem;
     cursor: pointer;
     text-decoration: none;
