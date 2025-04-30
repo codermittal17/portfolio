@@ -1,8 +1,24 @@
+import { Typewriter } from 'react-simple-typewriter';
+
 function HeroSection() {
     return (
-        <div>
-            HeroSection
-        </div>
+        <main className="hero-section" id="hero">
+            <div>
+                <h2>Hey I'm RAGHVENDRA MITTAL</h2>
+                <h4 style={{
+                    textAlign: 'center'
+                }}>I am a <Typewriter
+                        words={['WEB DEVELOPER', 'FREELANCER', 'AI/ML ENTHUSIAST']}
+                        loop={0}
+                        cursor
+                        cursorStyle="|"
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
+                    /></h4>
+            </div>
+            <a href="#contact" className="contact-btn">CONTACT</a>
+        </main>
     )
 }
 

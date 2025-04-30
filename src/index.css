@@ -1,0 +1,73 @@
+/* COLOR
+ #393E46 -> for background
+#222831 -> navbar
+#948979
+#DFD0B8 */
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* BODY STYLING */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* NAVBAR STYLING */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12.5vh;
+    padding: 2rem 3rem;
+    color: white;
+    background-color: #222831;
+    font-size: 1.4rem;
+}
+
+.navigation-buttons-container {
+    display: flex;
+    gap: 7rem;
+}
+
+.navigation-buttons-container li {
+    list-style: none;
+}
+
+.navigation-buttons-container a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO SECTION STYLING */
+.hero-section {
+    height: calc(100vh - 12.5vh);
+    background-color: #292e36;
+    /* background-color: #393E46; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6.5rem;
+    font-size: 3rem;
+}
+
+.contact-btn{
+    border: 2px solid #6f6352;
+    background-color: #393E46;
+    color: white;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
