@@ -9,10 +9,12 @@ function App() {
   return (
     <>
       <NavBar />
+      <main className='site-container'>
       <HeroSection />
       <About />
       <Projects />
       <Contact />
+      </main>
       <Footer />
     </>
   )
