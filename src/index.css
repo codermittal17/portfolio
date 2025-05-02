@@ -46,11 +46,22 @@ body {
     .navigation-buttons-container {
         gap: 2rem;
     }
+
+    .avatar-container img {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media (min-width: 883px) and (max-width: 1062px) {
     .navigation-buttons-container {
         gap: 4rem;
+    }
+}
+@media (min-width: 883px) and (max-width: 1189px) {
+    .avatar-container img {
+        width: 110px;
+        height: 110px;
     }
 }
 
