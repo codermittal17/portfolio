@@ -1,19 +1,19 @@
+const projectList = [
+    {
+        title: "Portfolio Website",
+        description: "Personal website built with React showcasing my work, skills, and contact information.",
+        link: "#",
+        image: "your-portfolio-image-url.jpg"
+    },
+    {
+        title: "E-commerce Platform",
+        description: "Developed with Django and React, featuring user auth, product filters, and cart functionality.",
+        link: "#",
+        image: "your-ecommerce-image-url.jpg"
+    },
+];
+
 function Projects() {
-    const projectList = [
-        {
-            title: "Portfolio Website",
-            description: "Personal website built with React showcasing my work, skills, and contact information.",
-            link: "#",
-            image: "your-portfolio-image-url.jpg"
-        },
-        {
-            title: "E-commerce Platform",
-            description: "Developed with Django and React, featuring user auth, product filters, and cart functionality.",
-            link: "#",
-            image: "your-ecommerce-image-url.jpg"
-        },
-        // Add more projects as needed
-    ];
 
     return (
         <section id="projects" className="projects-section">

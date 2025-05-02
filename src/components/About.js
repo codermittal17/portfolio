@@ -1,7 +1,7 @@
 function About() {
     return (
         <div id="about" className="about-container">
-            <h3 style={{ textAlign: 'center', marginBottom: '2rem', fontSize: '2.2rem', color: '#a77ddc' }}>
+            <h3 className="about-heading">
                 ABOUT
             </h3>
             <div className="info-skill-container">

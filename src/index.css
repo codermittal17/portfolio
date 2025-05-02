@@ -32,11 +32,26 @@ body {
     padding: 2rem 3rem;
     background-color: #1a0b2e;
     font-size: 1.4rem;
+    position: relative;
 }
 
 .navigation-buttons-container {
     display: flex;
     gap: 7rem;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 882px) {
+    .navigation-buttons-container {
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 883px) and (max-width: 1062px) {
+    .navigation-buttons-container {
+        gap: 4rem;
+    }
 }
 
 .navigation-buttons-container li {
@@ -48,32 +63,83 @@ body {
     text-decoration: none;
 }
 
+/* For small screens, make navbar links stacked and add hamburger */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 2rem;
+    }
+
+    .navigation-buttons-container {
+        display: none;
+        flex-direction: column;
+        gap: 1.2rem;
+        background-color: #1a0b2e;
+        position: absolute;
+        z-index: 2;
+        top: 12.5vh;
+        right: 0;
+        width: 60%;
+        height: calc(100vh - 12.5vh);
+        padding: 3rem 2rem;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .navigation-buttons-container.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
 .site-container {
     background-color: #11071f;
 }
 
+
 /* HERO SECTION STYLING */
 .hero-section {
     height: calc(100vh - 12.5vh);
-    /* background-color: #11071f; Final color  */
-    /* background-color: #292e36; */
-    /* background-color: #393E46; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 6.5rem;
     font-size: 3rem;
-}
-
-.avatar-container {
-    display: flex;
-    justify-content: center;
-}
-
-.typewriter-text {
+    padding: 0 2rem;
     text-align: center;
 }
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .hero-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section h4 {
+        font-size: 1.6rem;
+    }
+
+    .avatar-container img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
 
 .contact-btn {
     text-decoration: none;
@@ -84,10 +150,17 @@ body {
     padding: 1.2rem;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
-.contact-btn:hover {
-    background-color: #2c0e53;
-    transform: scale(1.06);
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .contact-btn {
+        font-size: 1rem;
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+    }
 }
+
 
 /* SKILLS AND ABOUT SECTION STYLING */
 .about-container {
@@ -96,6 +169,13 @@ body {
     align-items: center;
     padding: 4rem 2rem;
     background-color: #11071f;
+}
+
+.about-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    color: #a77ddc;
 }
 
 .info-skill-container {
@@ -128,7 +208,8 @@ body {
     text-align: left;
 }
 
-.about, .skills {
+.about,
+.skills {
     flex: 1;
     padding: 2rem;
 }
@@ -155,7 +236,7 @@ body {
     border-radius: 999px;
     border: 1px solid #a77ddc;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .skills-container li:hover {
@@ -250,7 +331,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.contact-button {
+.say-hello-btn {
     display: inline-block;
     padding: 0.8rem 2rem;
     font-size: 1rem;
@@ -261,7 +342,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.contact-button:hover {
+.say-hello-btn:hover {
     background-color: #c4a2f5;
 }
 
