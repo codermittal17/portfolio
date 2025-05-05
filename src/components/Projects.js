@@ -11,6 +11,12 @@ const projectList = [
         link: "#",
         image: "your-ecommerce-image-url.jpg"
     },
+    {
+        title: "Your Thoughts",
+        description: "Blog website",
+        link: "https://codermittal.pythonanywhere.com/",
+        image: "your-ecommerce-image-url.jpg"
+    },
 ];
 
 function Projects() {
