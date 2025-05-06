@@ -2,13 +2,13 @@ const projectList = [
     {
         title: "Portfolio Website",
         description: "Personal website built with React showcasing my work, skills, and contact information.",
-        link: "#",
+        link: "https://raghvendramittal.netlify.app/",
         image: "your-portfolio-image-url.jpg"
     },
     {
         title: "E-commerce Platform",
         description: "Developed with Django and React, featuring user auth, product filters, and cart functionality.",
-        link: "#",
+        link: "https://ecommerce-ib69.onrender.com",
         image: "your-ecommerce-image-url.jpg"
     },
     {
