@@ -3,19 +3,19 @@ const projectList = [
         title: "Portfolio Website",
         description: "Personal website built with React showcasing my work, skills, and contact information.",
         link: "https://raghvendramittal.netlify.app/",
-        image: "your-portfolio-image-url.jpg"
+        image: "/images/portfolio-project-img.png"
     },
     {
         title: "E-commerce Platform",
-        description: "Developed with Django and React, featuring user auth, product filters, and cart functionality.",
+        description: "Developed with Django, featuring user auth, product filters, and cart functionality.",
         link: "https://ecommerce-ib69.onrender.com",
-        image: "your-ecommerce-image-url.jpg"
+        image: "/images/ecommerce-project-img.png"
     },
     {
         title: "Your Thoughts",
-        description: "Blog website",
+        description: "A full-stack blog platform built with Django, enabling users to read and publish blog posts. Includes secure login/logout authentication and admin controls for managing and moderating content, including post deletion.",
         link: "https://codermittal.pythonanywhere.com/",
-        image: "your-ecommerce-image-url.jpg"
+        image: "/images/blog-project-img.png"
     },
 ];
 
