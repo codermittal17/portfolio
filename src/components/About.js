@@ -23,6 +23,9 @@ function About() {
                         <li>React.js</li>
                         <li>Django</li>
                         <li>DRF</li>
+                        <li>Django Channels</li>
+                        <li>WebRTC</li>
+                        <li>MQTT</li>
                         <li>ASP.NET</li>
                         <li>Linux</li>
                         <li>PostgreSQL</li>
